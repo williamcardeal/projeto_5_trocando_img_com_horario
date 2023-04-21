@@ -1,14 +1,14 @@
 function carregar() {
   let msg = window.document.querySelector("#msg");
-
+ 
   let img = window.document.querySelector("#imagem");
 
   let data = new Date();
 
   //Para fazer teste mude o let abaixo
-
-  //let hora = data.getHours()
-  let hora = 9;
+ 
+  let hora = data.getHours()
+  //let hora = 19;
 
   let minuto = data.getMinutes();
 
